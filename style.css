@@ -9,21 +9,33 @@ body{
   font-family: 'Comfortaa', cursive;
   background-color: black;
   color: white;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
 .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 1280px;
   margin: auto;
 }
 
-header{border-bottom: 5px solid orange;}
+.name-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border-bottom: 5px solid orange; */
+}
 
 #header{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   min-height: 70px;
   padding: 0 20px;
 }
